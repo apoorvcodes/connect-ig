@@ -19,7 +19,7 @@ export class DirectThreadFeed extends Feed<DirectThreadFeedResponse, DirectThrea
         cursor: this.cursor,
         direction: 'older',
         seq_id: this.seqId,
-        limit: 10,
+        limit: 100,
       },
     });
     this.state = body;
